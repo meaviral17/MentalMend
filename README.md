@@ -1,4 +1,4 @@
-
+(Documentation will be updated soon!!)
 
 # MentalMend.
 
@@ -119,7 +119,6 @@ important for mental health.
 * Click on the "Nutrition" card to explore.
 
 
-
 # Exercise for Mental Health
 
 One study found that increasing your activity levels from doing nothing, to exercising at least three times a week, reduces the risk of depression by up to 30 per cent.
@@ -131,11 +130,8 @@ One study found that increasing your activity levels from doing nothing, to exer
 
 ![MentalMend Workflow](https://github.com/meaviral17/MentalMend/assets/81246801/2120ad97-e635-4146-ba2e-7be1155fa311)
 
-# Of course it is Responsive
-
-The whole web app is responsive for most of the devices out there.
 
 
-#### THANK YOU <3
+#### THANK YOU 
 
 
