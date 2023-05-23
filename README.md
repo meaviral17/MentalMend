@@ -129,6 +129,7 @@ One study found that increasing your activity levels from doing nothing, to exer
 * Click "Explore" button on main page. (Takes you to the second section).
 * Click on the "Exercise" card to explore.
 
+![MentalMend Workflow](https://github.com/meaviral17/MentalMend/assets/81246801/2120ad97-e635-4146-ba2e-7be1155fa311)
 
 # Of course it is Responsive
 
