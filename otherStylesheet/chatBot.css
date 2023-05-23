@@ -1,0 +1,141 @@
+
+
+/* ++++++++++++++++++++++++++++ BACK TO HOME BTN +++++++++++++++++++++++ */
+
+.back-to-home{
+    width:95%;
+    margin:0 auto;
+}
+
+.back-to-home-arrow{
+    color:var(--dark-color);
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+
+
+/* +++++++++++++++++++++++++++++++++ BOT PAGE STYLING ++++++++++++++++++++++++++++ */
+
+
+.btn{
+    outline: none;
+    border:none;
+    padding:.5em 1em;
+    font-family: 'Poppins',sans-serif;
+    margin: .5em;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+.btn:hover,
+.btn:focus{
+    box-shadow: 0 2px 2px var(--dark-color);
+}
+
+
+.whole-bot-cont{
+    width: 100%;
+    height:auto;
+    padding:3em 1em 1em 1em;
+ 
+}
+
+
+.the-head{
+    text-align: center;
+    
+}
+
+.the-head p{
+    color:var(--dark-color);
+    font-size: 1.5em;
+    font-weight:400;
+}
+
+
+.bot-cont{
+    
+    padding:2em 3em 3em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.bot-img-cont{
+    width:250px;
+    height:250px;
+    background-image: url("../Images/chatbot.png");
+    background-size: cover;
+    background-color: var(--light-color);
+    background-blend-mode: multiply;
+ 
+    
+}
+
+.bot-page-btns{
+
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.start-convo-btn{
+    background-color: var(--primary-color);
+    color:var(--light-color);
+    transition:all 200ms ease-in-out;
+}
+
+
+.other-btn-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.speak-btn{
+    background-color: var(--primary-color);
+    color:var(--light-color);
+    display: none;
+}
+
+
+.stop-convo-btn{
+    background-color:var(--dark-color);
+    color:var(--light-color);
+    display: none;
+}
+
+
+.listening-text{
+    transition: all 300ms ease-in-out;
+    opacity: 0;
+    position:absolute;
+    top:30px;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
+.show-text{
+    opacity: 1;
+}
+
+
+.user-speech{
+    font-size: 1.2em;
+    color:var(--dark-color);
+}

@@ -1,0 +1,319 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+:root{
+    --light-color:#F3F9FB;
+    --dark-color:#1C2B2D;
+    --primary-color:#00B7A8;
+    --lightvarient-darkColor:#1C2B2Ddf;
+    --black-color:#000;
+    --shadow-color:#e4f0dc;
+}
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--light-color);
+    line-height: 1.5em;
+
+}
+
+
+
+p::selection{
+    background-color: var(--primary-color);
+    color:var(--dark-color);
+}
+
+
+/* ++++++++++++++++++++++++++++ BACK TO HOME BTN +++++++++++++++++++++++ */
+
+.back-to-home{
+    width:95%;
+    margin:0 auto;
+    padding:1em;
+}
+
+.back-to-home-arrow{
+    color:var(--light-color);
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+
+
+
+/**************** OTHER STYLEING ********************* */
+
+
+.whole-container{
+    background-color: var(--dark-color);
+}
+
+
+.game-page-content-cont{
+
+    width:95%;
+    margin:0 auto;
+    padding:2em 1em 1em 1em;
+}
+
+
+.page-head{
+    /* border:1px solid red; */
+    text-align: center;
+    font-weight:700;
+    color:var(--light-color);
+    padding-bottom: 3em;
+    letter-spacing: .05em;
+}
+
+.content-head{
+    font-weight:400;
+    color:var(--primary-color);
+}
+
+.game-page-content p{
+    color:var(--light-color);
+    padding:.5em 0;
+    max-width:100ch;
+    font-weight: 300;
+}
+
+
+.games-cont{
+    /* border:1px solid red; */
+    width:95%;
+    margin:0 auto;
+    padding:1em;
+}
+
+
+.games-cont h2{
+    color:var(--primary-color);
+    font-weight: 400;
+    padding-bottom: 1em;
+}
+
+
+.game-card-cont{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding-bottom: 3em;
+}
+
+
+
+.game{
+    width:150px;
+    height:150px;
+    margin: 0 2em;
+    border-radius:15px;
+    background-color: var(--light-color);
+    box-shadow: 0 0 10px var(--black-color);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 50px;
+    background-position-x: 50px;
+}
+
+.game1{
+    background-image: url("../otherJS/carGame/img/car03.png");
+    background-position-y: 30px;
+ 
+}
+
+.game2{
+    background-image: url("../otherJS/Blockson/img/player01.png");
+    background-position-y: 40px;
+}
+
+.actual-game-cont p{
+    color:var(--shadow-color);
+    text-align:center;
+    padding:.5em;
+}
+
+
+.more-game-option-cont{
+    padding:1em 2.5em;
+}
+
+.more-game-option-cont p{
+    color:var(--light-color);
+    font-weight: 300;
+    font-size: .8em;
+    position: relative;
+}
+
+.more-games-btn{
+    outline: none;
+    border:none;
+    border:1px solid var(--primary-color);
+    background-color: transparent;
+    color:var(--primary-color);
+    padding:.5em 1em;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: .5em;
+    transition: all 200ms ease-in;
+    
+}
+
+
+.more-games-btn:hover,
+.more-games-btn:focus{
+    background-color: var(--primary-color);
+    color:var(--light-color);
+
+}
+
+
+.pop-up-msg{
+    background-color: var(--light-color);
+    text-align:center;
+    color:var(--dark-color);
+    position: absolute;
+    bottom: -10px;
+    left:0;
+    width:250px;
+    pointer-events: none;
+    clip-path: polygon(0 0,0% 0,0% 100%,0 100%);
+    transition: all 300ms ease-in;
+}
+
+
+.game-top-bar{
+    width:95%;
+    margin:0 auto;
+    padding:1em;
+}
+
+.game-name-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color:var(--dark-color);
+}
+
+.start-btn-cont{
+    text-align: center;
+    padding-top: .5em;
+}
+
+.start-btn{
+    outline: none;
+    border:none;
+    background-color: var(--primary-color);
+    color:var(--dark-color);
+    padding:.5em 1.5em;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.game-top-bar p{
+    color:var(--dark-color);
+    padding:1em 0 0 0;
+    text-align: center;
+}
+
+.game-over-cont{
+    padding:2em;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    background-color: var(--dark-color);
+    color:var(--light-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--black-color);
+    display: none;
+}
+
+.game-over-cont h2{
+    width:250px;
+    padding:1em 0;
+}
+
+.retry-btn{
+    outline: none;
+    border:1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color:var(--dark-color);
+    padding:.5em 1.5em;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.stop-btn{
+    outline: none;
+    border:none;
+    border:1px solid var(--primary-color);
+    background-color:transparent;
+    color:var(--primary-color);
+    padding:.5em 1.5em;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.controls-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    position: fixed;
+    bottom:0;
+    opacity: 0;
+    pointer-events: none;
+    padding:0 0 2.5em 0;
+}
+
+
+
+.controls{
+    width:50px;
+    height:50px;
+    background-color:var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:var(--dark-color);
+    font-size: 1.7em;
+    margin:0 1em;
+}
+
+
+.right-control{
+    transform: rotate(180deg);
+}

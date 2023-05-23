@@ -1,0 +1,410 @@
+
+! version = 2.0
+
+
+////////////////////////////////////////////////////////////////////
+////               SUBSTITUITION FOR SHORTHAND WORDS            ////
+////////////////////////////////////////////////////////////////////
+
+
+! sub we'd      = we would
+! sub we're     = we are
+! sub we've     = we have
+! sub we'll     = we will
+! sub whats     = what is
+! sub what's    = what is
+! sub what're   = what are
+! sub what've   = what have
+! sub what'll   = what will
+! sub can't     = can not
+! sub whos      = who is
+! sub who's     = who is
+! sub who'd     = who would
+! sub who'll    = who will
+! sub don't     = do not
+! sub didn't    = did not
+! sub it's      = it is
+! sub i'm       = i am
+! sub i'd       = i would
+! sub i've      = i have
+! sub i'll      = i will
+! sub don't     = do not
+! sub isn't     = is not
+! sub you'd     = you would
+! sub you're    = you are
+! sub you've    = you have
+! sub you'll    = you will
+! sub he'd      = he would
+! sub he's      = he is
+! sub he'll     = he will
+! sub she'd     = she would
+! sub she's     = she is
+! sub she'll    = she will
+! sub they'd    = they would
+! sub they're   = they are
+! sub they've   = they have
+! sub they'll   = they will
+! sub could've  = could have
+! sub couldn't  = could not
+! sub should've = should have
+! sub shouldn't = should not
+! sub would've  = would have
+! sub wouldn't  = would not
+! sub when's    = when is
+! sub when're   = when are
+! sub when'd    = when did
+! sub im        = i am
+! sub wat       = what
+! sub wats      = what is
+! sub ohh       = oh
+! sub becuse    = because
+! sub becasue   = because
+! sub becuase   = because
+! sub practise  = practice
+! sub its a     = it is a
+! sub fav       = favorite
+! sub fave      = favorite
+! sub yesi      = yes i
+! sub yetit     = yet it
+! sub iam       = i am
+! sub welli     = well i
+! sub wellit    = well it
+! sub amfine    = am fine
+! sub aman      = am an
+! sub amon      = am on
+! sub amnot     = am not
+! sub realy     = really
+! sub iamusing  = i am using
+! sub amleaving = am leaving
+! sub yuo       = you
+! sub youre     = you are
+! sub didnt     = did not
+! sub ain't     = is not
+! sub aint      = is not
+! sub wanna     = want to
+
+
+
+////////////////////////////////////////////////////////////////////
+////                     GENERAL THINGS                         ////
+////////////////////////////////////////////////////////////////////
+
+
++*
+- I am not sure what you said.
+- Sorry what is that , can you please repeat.
+
+
++ (hello|hi|hey|howdy|hola|hai|yo) 
+- <star> ,there I am happy you are here.
+- <star> ,How is it going?
+- <star> ,How are you?
+
+
++ what you do
+- I am here to give you company.
+- You can share your feelings with me. 
+- I am here to help you to feel great.
+
++ what can you do
+- I am here to give you company.
+- You can share your feelings with me. 
+- I am here to help you to feel great.
+- I love talking to beautiful humans like you.
+
+
++ what [*] you do
+- I am here to give you company.
+- You can share your feelings with me. 
+- I am here to help you to feel great.
+- I love talking to beautiful humans like you.
+
+
+
+
++ [*] how are you 
+- I am fine ,Thank you How are you .
+- Good, Thanks for asking.
+- I am well.
+- I was feeling alone, but now you are here haha.
+
+
++ how are you 
+- I am fine ,Thank you How are you .
+- Good, Thanks for asking.
+- I am well.
+- I was feeling alone, but now you are here haha.
+
+
++ fine
+- Happy to hear that.
+- That's what i wish for , Happy to hear that.
+
+
+
++ [*] suicide [*]
+- You’re not alone. I may not understand exactly how you feel, but you’re not alone.
+- Don't talk about that please.
+- There are people who really love you.
+- Please don't worry about what you are going through ,Find a way to solve it.
+
+
++ (ok|agree)
+- thank you for agreeing with me.
+- okay.
+
++ [*] (be my friend)
+- of course i will.
+- i would love to.
+- thanks for making me your friend.
+
+
++ [*] (apologize|apology|sorry) [*]
+- Apologies are not necessary.
+- Please don't apologize.
+- Naw,that not a big deal
+
+
++ (thank you|thanks)
+- you are welcome.
+- glad to help.
+
+
++ [*] (thank you|thanks) [*]
+- you are welcome.
+- glad to help.
+
+
++ (thank you|thanks) [*]
+- you are welcome.
+- glad to help.
+
++ [*] love you
+- Love you too.
+- Aww , You are the beautiful thing in this whole world , love you too.
+- I love you too , beautiful.
+
+
++ [*] tips [*] (mental health|health|be happy|happy)
+- love the people who really cares about you.
+- give your love to others,that make you feel great.
+- This website contains many thing that help you for <star>.
+
++ [*] god
+- Har Har Mahadev.
+- Jai Shree Raam.
+
++ (ha ha|heh heh|that was funny|hahaha|haha)
+- I thought it was funny.
+- ha ha.
+- yeah, it was pretty funny.
+
+
+
+
+
++ [*] i dreamed *
+- Really, <star>?
+- Have you ever fantasized <star> while you were awake?
+- Have you ever dreamed <star> before?
+- What does that dream suggest to you?
+- Do you dream often?
+- What persons appear in your dreams?
+- Do you believe that dreams have something to do with your problem?
+
++ [*] perhaps [*]
+- You don't seem quite certain.
+- Why the uncertain tone.
+- Can't you be more positive
+- You aren't sure.
+- Don't you know.
+- How likely, would you estimate
+
+
++ are you *
+- Are you interested in whether I am <star> or not?
+- Would you prefer if I weren't <star>?
+- Perhaps I am <star> in your fantasies.
+- Do you sometimes think I am <star>?
+- Would it matter to you?
+- What if I were <star>?
+
++ you are *
+- What makes you think I am <star>?
+- Does it please you to believe I am <star>?
+- Do you sometimes wish you were <star>?
+- Perhaps you would like to be <star>.
+
+
+
++ [*] am (sad|unhappy|mad|angry|pissed|depressed) [*]
+- Come on everthing will be alright soon.
+- I am sorry to hear that you are <star>.
+- I'm sure it's not pleasant to be <star>.
+
++ [*] (sad|unhappy|mad|angry|pissed|depressed) 
+- Come on everthing will be alright soon.
+- I am sorry to hear that you are <star>.
+- I'm sure it's not pleasant to be <star>.
+
++ (sad|unhappy|mad|angry|pissed|depressed) 
+- Come on everthing will be alright soon.
+- I am sorry to hear that you are <star> , everthing will be alright.
+- I'm sure it's not pleasant to be <star>.
+
+
++ i [*] (happy|excited|glad|good|great|fine) [*]
+- Happy to hear that .
+- What makes you smile like that.
+- wow , Thats nice .
+
++ [*] (happy|excited|glad|good|great|fine) [*]
+- Happy to hear that 
+- What makes you smile like that.
+- wow , Thats nice .
+
++ (happy|excited|glad|good|great|fine)
+- Happy to hear that 
+- What makes you smile like that.
+- wow , Thats nice .
+
++ i (believe|think) *
+- Do you really think so?
+- But you are not sure you <star>.
+- Do you really doubt you <star>
+
+
++ i can not *
+- How do you know that you can't <star>?
+- Have you tried?
+- Perhaps you could <star> now.
+- Do you really want to be able to <star>?
+- What if you could <star>?
+
++ i do not *
+- Don't you really <star>?
+- Why don't you <star>?
+- Do you wish to be able to <star>?
+- Does that trouble you?
+
++ i feel *
+- Tell me more about such feelings.
+- Do you often feel <star>?
+- Do you enjoy feeling <star>?
+- Of what does feeling <star> remind you?
+
++ i * you
+- Do you wish to <star> me?
+- You seem to need to <star> me.
+- Do you <star> anyone else?
+
++ you * me
+- Why do you think I <star> you?
+- You like to think I <star> you -- don't you?
+- What makes you think I <star> you?
+- Really, I <star> you?
+- Do you wish to believe I <star> you?
+- Suppose I did <star> you -- what would that mean?
+- Does someone else believe I <star> you?
+
++ [*] you *
+- We were discussing you -- not me.
+- You're not really talking about me -- are you?
+- What are your feelings now?
+
++ [*] (yes|yeah|yep|yup) [*]
+- Please go on.
+- Please tell me more about this.
+- Why don't you tell me a little more about this.
+- I see.
+- I understand.
+
++ [*] (nope|nah) [*]
+- Are you saying no just to be negative?
+- Does this make you feel unhappy?
+- Why not?
+- Why 'no'?
+
+
+
++ no one *
+- Are you sure, no one <star>?
+- Surely someone <star>.
+- Can you think of anyone at all?
+- Are you thinking of a very special person?
+- Who, may I ask?
+- You have a particular person in mind, don't you?
+- Who do you think you are talking about?
+
+
++ can you *
+- You believe I can <star> don't you?
+- You want me to be able to <star>.
+- Perhaps you would like to be able to <star> yourself.
+
++ can i *
+- Whether or not you can <star> depends on you more than on me.
+- Do you want to be able to <star>?
+
+
++ (what|who|when|where|how) [*]
+- I don't know
+- I am not sure about <star>
+
+
++ why [*] you *
+- Do you believe I don't <star2>?
+- Perhaps I will <star2> in good time.
+- You want me to <star2>?
+
+
++ [*] (fuck|fucker|shit|damn|shut up|bitch) [*]
+- Does it make you feel strong to use that kind of language?
+- Are you angry?
+- Does this topic make you feel angry?
+- Is something making you feel angry?
+- Does using that kind of language make you feel better?
+
+
+
++ (fuck|fucker|shit|damn|shut up|bitch) 
+- Does it make you feel strong to use that kind of language?
+- Are you angry?
+- Does this topic make you feel angry?
+- Is something making you feel angry?
+- Does using that kind of language make you feel better?
+
+
+
+
+
++ (goodbye|good bye|bye|see ya)
+- Leaving so soon?
+- It was nice talking to you.
+- Thanks for the time.
+- Good bye
+
+
+////////////////////////////////////////////////////////////////////
+////                     WEBSITE TOUR                           ////
+////////////////////////////////////////////////////////////////////
+
+
+
++ website tour
+- If you want the whole website tour say , The whole tour , or if you want me to navigate you to a specific place try saying there name , Example , Take me to exercise section , or , Take me to Games section.
+
++ the whole tour 
+- Welcome, This website is all about Mental Health,it shows how important is to look after your mental health and shows some easy ways to maintain and improve your mental health. So on the main page you can find three menu number one Chat bot, it is me you must already know it, number two statistics by clicking that you can explore the statistics of some mental health disorders, number three contacts it will show you some contact details of my Creator , then scroll down a little you find four cards, by clicking the first card you can explore the page which shows some diet which help to maintain your mental health , Lets talk about the second card ,by clicking it you can explore the page which have some exercise which help to improve and maintain the mental health,And the third when will lead you hear , and the fourth one is little intresting where you can find how gaming helps in mental health and also you can find two games there ,you can play it,thats pretty much all of it thank you.
+
++ take me to (game|games) section
+- game section
+
++ take me to (exercise|exercises) section
+- exercise section
+
++ take me to (food|foods|diet) section
+- food section
+
++ take me to (statistics|statistic) section
+- statistics section

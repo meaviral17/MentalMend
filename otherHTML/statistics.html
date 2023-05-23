@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>statistics</title>
+
+    <script src="https://kit.fontawesome.com/1b2b6a64da.js" crossorigin="anonymous"></script>
+
+
+    <link rel="icon" href="../Images/B_icon01.png">
+
+    <link rel="stylesheet" href="../otherStylesheet/common.css">
+    <link rel="stylesheet" href="../otherStylesheet/statistics.css">
+</head>
+<body>
+
+       <!-- +++ HEADER +++ -->
+
+    <div class="header">
+        <div class="logo-cantainer">
+            <h2 class="logo">MentalMend.</h2>
+        </div>
+
+        <div class="nav-and-btn-cont">
+            <div class="nav-list-cont">
+                <ul class="nav-ul">
+                    <li><a href="../index.html" >HOME</a></li>
+                    <li><a href="#FOOTER">CONTACT</a></li>
+                </ul>
+            </div>
+            
+
+            <div class="hamBurger">
+                <!-- <div class="lines line1"></div>
+                <div class="lines line2"></div>
+                <div class="lines line2 mid-line"></div>
+                <div class="lines line3"></div> -->
+                <diV class="line line1"></diV>
+                <div class="mid-line-cont">
+                    <div class="line mid-line1"></div>
+                    <div class="line mid-line2"></div>
+                </div>
+                <diV class="line line3"></diV>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mobile-view-nav-cont" id="mobile-nav">
+
+        <div class="mobile-view-nav-head">
+            <p>Menu</p>
+        </div>
+
+        <div class="mobile-view-nav-list">
+
+            <ul>
+                <li class="mobile-view-list"><a href="../index.html" >HOME</a></li>
+                <li class="mobile-view-list"><a href="#FOOTER">CONTACT</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+<!-- ++++++++++++++++++++  SECTION-2 +++++++++++++++++++++++ -->
+
+
+    <div class="whole-staticstics-cont">
+
+        <div class="statistics-head">
+            <h2>Here are some statistics of Mental Health disorders</h2>
+            <p>The statistics shows how important is to look after your Mental Health</p>
+        </div>
+
+        <div class="statistics-table-cont">
+
+            <div class="statistics-table-head">
+                <p>Mental Health related disorders - 2022</p>
+
+                <form>
+                    <select class="select-country" id="country-dropDown" onchange="addCountry(this)">
+                        
+                        <option value="none">Add Country</option>
+
+                    </select>
+                </form>
+
+                <div>
+                    <!-- <button class="random-country-btn">Add Random Country</button> -->
+                    <button class="remove-country-btn">Remove Country</button>
+                </div>
+          
+            </div>
+ 
+
+            <div class="statistics-table1-cont">
+                <canvas id="myChart" width="400" height="400"></canvas>
+                
+            </div>
+
+            <p class="source-text">Data from : Our World in Data</p>
+
+
+
+        </div>
+
+    </div>
+
+ 
+    <div class="error-msg-cont">
+        <h3>Some ERROR! occured</h3>
+        <button class="error-btn">Click Me</button>
+    </div>
+
+
+ <!-- ++++++++++++++++++++++ FOOTER ++++++++++++++++++++++++++ -->
+
+    <a id="FOOTER"></a>
+    <div class="footer">
+        <div class="footer-text-cont">
+            <h2>Get in touch.</h2>
+            <P>I would love to hear from you friend &#60;3</P>
+        </div>
+
+        <div class="social-icon-cont">
+            <div class="social-head">
+                <h2 class="logo footer-logo">MentalMend.</h2>
+            </div>
+
+            <div class="icons">
+                <ul>
+                    <li><a href="https://github.com/meaviral17"><i class="fab fa-github-square"></i></a></li>
+                    <li><a href="mailto:meaviral17@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/meaviralsrivastava/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </div>
+        </div>
+
+        <p class="copy-rights">Thank You :)</p>
+    </div>
+
+    <script src="../otherJS/hamberger.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="../otherJS/data.js"></script>
+    <script src="../otherJS/statistics.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
+
+:root{
+    --light-color:#F3F9FB;
+    --dark-color:#1C2B2D;
+    --primary-color:#00B7A8;
+    --lightvarient-darkColor:#1C2B2Ddf;
+    --black-color:#000;
+    --shadow-color:#e4f0dc;
+}
+
+.land-img-cont{
+    width:100%;
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:1em;
+    background-image: url("../Images/food-page-images/land-food03.jpg");
+    background-size:cover;
+    background-color:var(--lightvarient-darkColor);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+.food-page-head h2{
+    color: var(--light-color);
+    font-weight: 600;
+}
+
+.food-page-head h2 span{
+    color:var(--primary-color);
+    font-weight: 300;
+}
+
+
+
+/* SECTION-2 */
+
+.section-2{
+    overflow: hidden;
+}
+
+
+
+.section-2-para{
+    /* border:1px solid red; */
+    width:95%;
+    margin:0 auto;
+    padding: 3em 0;
+}
+
+.section-2-para p{
+    padding: 1em 0;
+    color:var(--dark-color);
+}
+
+.whole-food-div{
+    /* border: 1px solid red; */
+    width:95%;
+    margin:0 auto;
+    padding: 0 .5em;
+}
+
+.food-list-head h2{
+    font-size: 1.5em;
+    color: var(--dark-color);
+    line-height: 1.2em;
+}
+
+.food-list-head h2 span{
+    color:var(--primary-color);
+}
+
+
+.list-of-food{
+    /* border:1px solid red; */
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-cont{
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em 0;
+}
+
+
+
+.rev{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.container-img{
+    min-width:280px;
+    min-height:280px;
+    background-size: cover;
+    background-color: #1C2B2D88;
+    background-blend-mode:multiply ;
+}
+
+
+.img-1{
+    background-image: url("../Images/food-page-images/salmon.jpg");
+}
+
+
+.img-2{
+    background-image: url("../Images/food-page-images/grains.jpg");
+}
+
+
+.img-3{
+    background-image: url("../Images/food-page-images/avacado.jpg");
+}
+
+
+.img-4{
+    background-image: url("../Images/food-page-images/Spinach.jpg");
+}
+
+
+.img-5{
+    background-image: url("../Images/food-page-images/yogurt.jpg");
+}
+
+
+.img-6{
+    background-image: url("../Images/food-page-images/nuts.jpg");
+}
+
+
+.img-7{
+    background-image: url("../Images/food-page-images/olive-oil.jpg");
+}
+
+
+.img-8{
+    background-image: url("../Images/food-page-images/tomato.jpg");
+}
+
+
+.img-9{
+    background-image: url("../Images/food-page-images/chicken.jpg");
+}
+
+
+.img-10{
+    background-image: url("../Images/food-page-images/chocolate.jpg");
+}
+
+.food-desp{
+    /* border:1px solid black; */
+    padding: .5em .5em .5em 2em;
+    /* width:85ch; */
+}
+
+
+.food-desp h2{
+    padding-bottom: .5em;
+    color:var(--dark-color);
+    position: relative;
+}
+
+.food-desp h2::after{
+    content: ' ';
+    position: absolute;
+    top:38%;
+    transform: translate(0,-50%);
+    width:15px;
+    height:15px;
+    background-color: var(--primary-color);
+    margin:0 .3em ;
+}
+
+@media(max-width:800px){
+    .food-cont{
+        flex-wrap: wrap;
+    }
+
+    .food-desp{
+        padding: .5em;
+    }
+}
+
+
+
+.fade-out{
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+}
+
+
+.fade-out-2{
+    transform: translateX(+50%);
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+}
+
+.fade-in{
+    transform: translateX(0);
+    opacity: 1;
+}

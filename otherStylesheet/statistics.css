@@ -1,0 +1,145 @@
+
+/* SECTION-2 */
+
+
+.whole-staticstics-cont{
+    /* border:1px solid red; */
+    width: 100%;
+    height:auto;
+    padding:2em 1em 1em 1em;
+
+}
+
+
+.blur-background{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+
+.statistics-head{
+    text-align: center;
+    line-height: 2em;
+}
+
+.statistics-head h2{
+    color:var(--dark-color);
+}
+
+.statistics-head p{
+    color:var(--primary-color);
+}
+
+
+
+.statistics-table-cont{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+
+.statistics-table-head{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.select-country{
+    border:none;
+    outline: none;
+    background-color: var(--light-color);
+    color:var(--dark-color);
+    font-family: 'Poppins',sans-serif;
+    border:1px solid var(--dark-color);
+    padding: .5em 1em;
+    margin:.5em;
+    width:20em;
+    cursor: pointer;
+}
+
+/* 
+.random-country-btn{
+    border:none;
+    outline: none;
+    padding: .5em .7em;
+    font-size: .7em;
+    font-family: 'Poppins',sans-serif;
+    background-color: var(--primary-color);
+    color:var(--light-color);
+    cursor: pointer;
+} */
+
+.remove-country-btn{
+    border:none;
+    outline: none;
+    padding: .5em .7em;
+    font-size: .7em;
+    font-family: 'Poppins',sans-serif;
+    background-color: var(--primary-color);
+    color:var(--light-color);
+    cursor: pointer;
+}
+
+.statistics-table1-cont{
+    /* border:1px solid red; */
+    width:70%;
+    height:350px;
+    padding: 2.5em 0 1em 0;
+}
+
+
+@media(max-width:700px){
+    .statistics-table1-cont{
+        width:100%;
+    }
+
+    .statistics-table-cont{
+        padding:1em 0;
+    }
+}
+
+.source-text{
+    font-size:.8em;
+    font-weight: 300;
+    padding: 1em;
+}
+
+
+/* +++++++++++++ ERROR MSG +++++++++++++++++++++++++ */
+
+.error-msg-cont{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 100;
+    padding: 1em;
+    display: none;
+}
+
+.error-msg-cont h3{
+    padding: 1em 1em .7em 1em;
+}
+
+.error-btn{
+    border:none;
+    outline: none;
+    padding: .4em 1.3em;
+    font-size: .8em;
+    font-family: 'Poppins',sans-serif;
+    border:1px solid var(--dark-color);
+    background-color: transparent;
+    color:var(--dark-color);
+    cursor: pointer;
+    font-weight: 800;
+}
+
+

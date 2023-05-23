@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockson</title>
+
+    <link rel="icon" href="../../Images/B_icon01.png">
+
+    <link rel="stylesheet" href="../../otherStylesheet/blockson.css">
+
+</head>
+<body>
+    <div class="back-to-home">
+        <a href="../carGame/games.html"><i class="fas fa-long-arrow-alt-right back-to-home-arrow"></i></a>
+        <h3>Score : <span class="blockson-score">0</span></h3>
+    </div>
+
+    <div class="btn-cont">
+        <button class="start-btn btn">Start</button>
+    </div>
+
+    <center><p>Use Up arrow or just click to jump</p></center>
+
+    <div class="game-over-cont">
+        <h2>Game Over :( </h2>
+        <p>Score : <span class="finalScore">0</span></p>
+
+        <button class="retry-btn btn">Retry</button>
+        <button class="stop-btn btn">Stop</button>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/1b2b6a64da.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D/p5.collide2d.min.js"></script>
+
+    <script src="ground.js"></script>
+    <script src="player.js"></script>
+    <script src="obstacles.js"></script>
+    <script src="clouds.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
