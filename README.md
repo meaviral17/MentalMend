@@ -6,8 +6,8 @@ This project is a comprehensive web platform providing accessible resources, voi
 
  ## Project Achievements
 - [Top 20 Projects-Overall (13th rank) | Hack-o-Pitch 2.0 organized by Indian Institute of Technology, Madras]()
-Event website: https://hackopitch.iitmparadox.org/
-Project Theme: Health, Fitness, and Sports
+* Event website: https://hackopitch.iitmparadox.org/
+* Project Theme: Health, Fitness, and Sports
 
 # Features
 
