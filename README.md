@@ -1,8 +1,6 @@
 
 # MentalMend.
-
-This project is all about Mental Health,it shows how important is to look after your mental health
-and shows some easy ways to maintain and improve your mental health. 
+This project is a comprehensive web platform providing accessible resources, voice-enabled chatbot support, interactive tools, and games for improving mental health. It shows how important is to look after your mental health and shows some easy ways to maintain mental wellness. 
 
 ![WhatsApp Image 2023-05-25 at 12 02 18](https://github.com/meaviral17/MentalMend/assets/81246801/d3be7223-0602-4cdd-a963-9a7c73570bad)
 
