@@ -4,6 +4,9 @@ This project is a comprehensive web platform providing accessible resources, voi
 
 ![WhatsApp Image 2023-05-25 at 12 02 18](https://github.com/meaviral17/MentalMend/assets/81246801/d3be7223-0602-4cdd-a963-9a7c73570bad)
 
+ ## Project Achievements
+- [Top 20 Projects-Overall (13th rank) | Hack-o-Pitch 2.0 organized by Indian Institute of Technology, Madras]()
+
 
 # Features
 
