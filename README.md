@@ -1,13 +1,14 @@
 
 # MentalMend.
 This project is a comprehensive web platform providing accessible resources, voice-enabled chatbot support, interactive tools, and games for improving mental health. It shows how important is to look after your mental health and shows some easy ways to maintain mental wellness. 
+ ## Project Achievements
+- [Top 20 Projects-Overall (13th rank) | Hack-o-Pitch 2.0 organized by Indian Institute of Technology, Madras](https://www.linkedin.com/posts/activity-7068144866467184640-UE43?utm_source=share&utm_medium=member_desktop)
+* Event website: https://hackopitch.iitmparadox.org/
+* Submission Theme: Health, Fitness, and Sports
 
 ![WhatsApp Image 2023-05-25 at 12 02 18](https://github.com/meaviral17/MentalMend/assets/81246801/d3be7223-0602-4cdd-a963-9a7c73570bad)
 
- ## Project Achievements
-- [Top 20 Projects-Overall (13th rank) | Hack-o-Pitch 2.0 organized by Indian Institute of Technology, Madras]()
-* Event website: https://hackopitch.iitmparadox.org/
-* Project Theme: Health, Fitness, and Sports
+
 
 # Features
 
